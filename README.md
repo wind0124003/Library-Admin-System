@@ -19,7 +19,7 @@ Staff can edit ISBN and title of a book after he inputs the ISBN. If he click th
 #### Search book
 Input ISBN or title and click the "Search" button. The system will search the books that match the criteria.
 #### Display book
-- "Display all": display all books by order of adding into the list.
+- "Display all": display all books by order of adding to the list.
 - "Display all by ISBN": display all books in ascending order according to ISBN. When clicking the button again, it will be in descending order.
 - "Display all by Title": display all books in ascending order according to title. When clicking the button again, it will be in descending order.
 
@@ -33,3 +33,7 @@ When clicking this button, a message box is prompted and asks for inputting the 
 ### Return book
 The system will check if any students reserve this book. If other students reserve the book, the available state of the books will remain false. 
 The student, who reserved the book first, will borrow this book.
+
+## UML Class Diagram
+![LibrarySystem_JavaFx drawio (2)](https://github.com/wind0124003/Library-Admin-System/assets/59653164/90dee070-e898-4dd7-9d2f-6a30e0ea1118)
+
